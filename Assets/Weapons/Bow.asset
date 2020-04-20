@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbdabfd1c8b540bdb750168c4482b98, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  weaponSprite: {fileID: 21300000, guid: e64f3ecea8dd04368bb0ad191f9f904c, type: 3}
+  damage: 5
+  reach: 10
+  isRanged: 1
+  projectile: {fileID: -8218322597581235970, guid: 48735b51eeff14ab3a18ce3081d3aa11,
+    type: 3}

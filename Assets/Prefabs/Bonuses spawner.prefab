@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8885116738223174107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8885116738223174101}
+  - component: {fileID: 8885116738223174106}
+  m_Layer: 0
+  m_Name: Bonuses spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8885116738223174101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8885116738223174107}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6442289, y: -0.07333629, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8885116738223174106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8885116738223174107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0554d52f0ec1f44bcac52a7f89414180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 1577013802913870740, guid: 75f9f57614e734030bc56a672b835dea, type: 3}
+  - {fileID: 6940062502385951201, guid: 7275e43e370bd4b25b72b46b1bf3b880, type: 3}
+  spread: 30
+  number: 4
+  commander: {fileID: 0}
+  biomes:
+  - {fileID: 8885116738223174106}
+  - {fileID: 2302743521924279694, guid: 182e4fe11b42f4f3686457e81800c0fc, type: 3}
+  grass: 1
+  top: {fileID: 0}
+  bottom: {fileID: 0}
+  left: {fileID: 0}
+  right: {fileID: 0}
